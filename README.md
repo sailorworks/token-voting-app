@@ -11,3 +11,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
+use this to run this project
+Terminal 1: npx hardhat node
+Terminal 2:  npx hardhat ignition deploy ./ignition/modules/deploy.ts --network localhost
+Terminal 3: bun dev
